@@ -1,0 +1,37 @@
+<template name="layout">
+
+
+  <body>
+    <div class="body">
+    	<!-- HEADER -->
+        {{>header}}
+    	<!-- HEADER -->
+
+    	<!-- PAGE-HEADER -->
+
+    	<!-- ABOUT INFO -->
+    	<div class="container home-about about" id="main">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- {{#transitioner}}
+                {{> yield}}
+              {{/transitioner}} -->
+                {{> yield}}
+
+            </div>
+
+          </div>
+    	</div>
+
+
+
+
+    	<!-- FOOTER -->
+    	<!-- FOOTER -->
+
+
+    	</div>
+
+  </body>
+
+</template>

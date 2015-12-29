@@ -1,0 +1,27 @@
+header {
+  background: #2C3E50;
+  height: 73px; }
+
+.loading-message {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: sans-serif; }
+
+.sk-spinner-rotating-plane.sk-spinner {
+  background-color: #fff; }
+
+.quotes-content {
+  margin-bottom: 0px; }
+  .quotes-content p {
+    background: #3BCA91;
+    padding: 25px 39px; }
+  .quotes-content .title {
+    color: #fff;
+    font-size: 17px;
+    float: left; }
+
+.subt {
+  padding-left: 0px; }
+
+/*# sourceMappingURL=m.css.map */

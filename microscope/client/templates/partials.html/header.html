@@ -1,0 +1,32 @@
+<template name="header">
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-2 logo">
+            <h1><a href="{{pathFor 'postsList'}}">{{pageTitle}}</a></h1>
+          </div>
+          <div class="col-md-10">
+            <div class="search pull-right">
+              <span class="icon-search2 slide-search"></span>
+            </div>
+            <nav id="nav_menu" class="pull-right">
+              <ul>
+                <li>
+                  <a href='{{pathFor 'postsList'}}'>{{pageTitle}}</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLIDE SEARCH -->
+    <div class="searchbar-content">
+      <form class="search">
+        <input type="text" placeholder="Type text here and press enter...">
+      </form>
+    </div>
+  </header>
+</template>

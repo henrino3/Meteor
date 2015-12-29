@@ -1,0 +1,33 @@
+header {
+  background: #2C3E50;
+  height: 73px; }
+
+.loading-message {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: sans-serif; }
+
+.sk-spinner-rotating-plane.sk-spinner {
+  background-color: #fff; }
+
+.quotes-content {
+  margin-bottom: 5px; }
+  .quotes-content .row {
+    background: #3BCA91;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px; }
+  .quotes-content .title {
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    padding-right: 10px;
+    padding-left: 0px; }
+  .quotes-content .right {
+    float: right; }
+
+.subt {
+  padding-left: 0px; }
+
+/*# sourceMappingURL=main.css.map */

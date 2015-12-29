@@ -1,0 +1,51 @@
+$blue : #2C3E50;
+$green :  #3BCA91;
+
+header {
+    background: $blue;
+    height: 73px;
+  }
+
+.loading-message {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.sk-spinner-rotating-plane.sk-spinner {
+  background-color: #fff;
+}
+
+.quotes-content {
+    margin-bottom: 5px;
+
+    .row {
+      background: $green;
+      padding:{
+        top: 20px;
+        bottom:20px;
+        left: 0px
+      }
+    }
+
+  .title {
+      font:{
+        size: 18px;
+      }
+      color: #fff;
+      float: left;
+      padding:{
+        right: 10px;
+        left: 0px;
+      }
+    }
+  .right{
+    float: right;
+
+  }
+  }
+
+.subt {
+  padding-left: 0px;
+}
