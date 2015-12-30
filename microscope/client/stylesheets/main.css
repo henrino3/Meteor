@@ -19,7 +19,7 @@ header {
     padding-bottom: 20px;
     padding-left: 0px; }
   .quotes-content .title {
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
     float: left;
     padding-right: 10px;
@@ -28,6 +28,35 @@ header {
     float: right; }
 
 .subt {
+  font-size: 14px;
+  margin-left: 0px;
+  margin-top: 10px;
   padding-left: 0px; }
+  .subt a {
+    color: #2C3E50; }
+
+#nav_menu li a {
+  color: #fff !important;
+  text-transform: capitalize !important;
+  font-size: 14px !important; }
+#nav_menuhover {
+  color: #eee !important; }
+
+.login-link-text {
+  color: #fff !important;
+  margin-top: 30px !important;
+  text-decoration: none !important; }
+
+.login-button {
+  background: #3BCA91 !important;
+  border: 1px solid #3BCA91 !important; }
+
+#login-buttons.login-buttons-dropdown-align-right .login-close-text {
+  font-size: 10px;
+  color: #000 !important;
+  text-decoration: none; }
+
+.btn-cus1 {
+  background: #2C3E50; }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,7 +31,7 @@ header {
 
   .title {
       font:{
-        size: 18px;
+        size: 22px;
       }
       color: #fff;
       float: left;
@@ -47,5 +47,55 @@ header {
   }
 
 .subt {
+    font:{
+    size: 14px;
+  }
+  margin:{
+    left:0px;
+    top: 10px;
+  }
   padding-left: 0px;
+
+  a {
+    color: $blue;
+
+  }
+}
+
+#nav_menu{
+  li a{
+      color: #fff!important;
+      text-transform: capitalize!important;
+      font-size: 14px!important;
+  }
+  &hover{
+    color: #eee!important;
+  }
+}
+
+.login-link-text{
+  color: #fff!important;
+  margin-top: 30px!important;
+  text-decoration: none!important;
+
+}
+
+
+.login-button{
+  background: $green!important;
+  border: 1px solid $green!important;
+}
+
+
+
+#login-buttons.login-buttons-dropdown-align-right .login-close-text {
+    font-size: 10px;
+    color: #000!important;
+    text-decoration: none
+}
+
+
+
+.btn-cus1{
+  background: $blue;
 }
